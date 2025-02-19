@@ -1,3 +1,8 @@
+# Write a function solve that returns an array of the number of 1-bits (Hamming weight) for each number from 0 to n. 
+
+# Make sure you return your solution, don't print!
+
+
 class CountingBits:
     def __init__(self, n):
         self.n = n
