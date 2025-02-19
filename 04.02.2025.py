@@ -8,4 +8,4 @@ def solve(n):
     return result
         
 
-solve(5)
+#solve(5)
