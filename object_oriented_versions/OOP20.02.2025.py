@@ -1,3 +1,12 @@
+#51. Majority Element II (n/3)
+#Write a function solve that finds all elements that appear more than n/3 times in an array.
+
+#Example:
+#Input: [3,2,3]
+#Output: [3] 
+
+#Make sure you return your solution, don't print!
+
 class MajorityElementII:
     def __init__(self, nums):
         self.nums = nums
