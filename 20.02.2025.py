@@ -1,21 +1,11 @@
-'''
-def solve(nums):
-  
-    result = []
+#51. Majority Element II (n/3)
+#Write a function solve that finds all elements that appear more than n/3 times in an array.
 
-    length = len(nums)
-    minimum = length / 3
+#Example:
+#Input: [3,2,3]
+#Output: [3] 
 
-    for i in nums:
-        if i >= minimum and i not in result:
-            result.append(i)
-    
-    return result
-    #print(result)
-
-solve([3, 2, 3])
-'''
-
+#Make sure you return your solution, don't print!
 
 
 def solve(nums):
@@ -39,4 +29,4 @@ def solve(nums):
     return result
     #print(result)
 
-solve([3, 2, 3])
+#solve([3, 2, 3])
