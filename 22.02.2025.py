@@ -32,7 +32,8 @@ def solve(m, n):
     denominator = d_rr * d_lr
 
     result = o2 / denominator
-    print(result)
+    return result
+    #print(result)
 
 
-solve(3, 7)
+#solve(3, 7)
